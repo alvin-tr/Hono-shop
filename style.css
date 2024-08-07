@@ -1200,6 +1200,27 @@ body {
     background-color: #f6f6f6;
     margin-top: 70px;
 }
+.carousel__container__title__blog {
+    padding-left: 80px;
+    background-color: #ffffff;
+    margin-top: 70px;
+}
+
+.carousel__container__title__blog h2 {
+    text-transform: uppercase;
+    font-size: 26px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #2f3239;
+}
+
+.carousel__container__title__blog p {
+    font-size: 14px;
+    color: #777777;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 35px;
+}
 
 .carousel__container__title h2 {
     text-transform: uppercase;
