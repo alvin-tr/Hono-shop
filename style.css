@@ -363,7 +363,6 @@ body {
 
 .carousel__container--container {
     position: relative;
-    background-color: #b19361;
     width: 100%;
 }
 
@@ -810,7 +809,6 @@ body {
 
 /* STOOL PRODUCTS */
 .stool__container {
-    margin-top: 70px;
     margin-bottom: 70px;
 }
 
@@ -1121,22 +1119,25 @@ body {
 }
 
 .carousel__container {
-    background-color: #ffffff;
+    background-color: #f6f6f6;
     position: relative;
     display: flex;
     justify-content: center;
+    /* margin-bottom: 70px; */
 }
 
 .carousel__fix {
     display: flex;
     flex-direction: row;
     align-items: center;
-    /* background-color: #f6f6f6;    */
+    background-color: #f6f6f6;
 }
 
 .carousel__container__fix {
-    width: 100%;
-    /* background-color: #b19361; */
+    width: 70%;
+    background-color: #f6f6f6;
+    margin-bottom: 70px;
+
     /* padding-top: 50%; */
 }
 
@@ -1196,6 +1197,7 @@ body {
 
 .carousel__container__title {
     padding-left: 80px;
+    background-color: #f6f6f6;
 }
 
 .carousel__container__title h2 {
@@ -1249,19 +1251,9 @@ body {
     opacity: 1;
 }
 
-.img--hover a {
-    text-transform: uppercase;
-    text-decoration: none;
-    font-size: 14px;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 700;
-    color: #ffffff;
-    cursor: pointer;
-}
-
 .img--hover {
     position: absolute;
-    bottom: 8%;
+    bottom: 0;
     left: 50%;
     opacity: 0;
     transition: opacity 1s;
@@ -1274,6 +1266,17 @@ body {
     align-items: center;
     padding: 15px 20px;
 }
+
+.img--hover a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    cursor: pointer;
+}
+
 #random {
     margin-right: -10px;
 }
@@ -1296,10 +1299,10 @@ body {
 }
 
 .carousel__container__background__slide--des {
-    background-color: #ffffff;
-    margin-top: 20px;
+    background-color: #f6f6f6;
+    margin-top: 50px;
     position: absolute;
-    bottom: 10%;
+    bottom: 0;
     left: 0;
     right: 0;
 }
@@ -1340,7 +1343,7 @@ body {
     display: flex;
     flex-direction: row;
     width: 100%;
-    background-color: #ffffff;
+    background-color: #f6f6f6;
 }
 
 .blogs__fix {
@@ -2309,6 +2312,9 @@ background-color: #27a162ee;
     border: 1.5px solid #b19461;
     color: #b19361;
 }
+.carousel__container__background {
+    background-color: #f6f6f6;
+}
 
 @media screen and (max-width: 1024px) {
     .header-nav {
@@ -2342,7 +2348,7 @@ background-color: #27a162ee;
     }
 
     .carousel__container__background__slide--des {
-        background-color: #ffffff;
+        background-color: #f6f6f6;
         /* margin-top: 20px; */
         position: absolute;
         bottom: 0;
