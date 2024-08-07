@@ -50,6 +50,18 @@ dots.forEach((dot, index) => {
     });
 });
 
+let slideInterval = setInterval(nextSlide, 3000);
+
+// Optionally: Pause the automatic slideshow on hover and resume on mouse leave
+items.forEach(item => {
+    item.addEventListener('mouseenter', () => {
+        clearInterval(slideInterval);
+    });
+    item.addEventListener('mouseleave', () => {
+        slideInterval = setInterval(nextSlide, 3000);
+    });
+});
+
 
 // swiper
 const swiper = new Swiper('.carousel__container__fix', {
