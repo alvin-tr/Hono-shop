@@ -563,6 +563,8 @@ body {
     margin-top: 30px;
     padding-block: 90px;
     /* background-color: #af7474; */
+    display: flex;
+    justify-content: center;
 }
 
 .promo_row {
@@ -571,6 +573,7 @@ body {
     align-items: center;
     justify-content: space-evenly;
     /* background-color: #bb5555; */
+    max-width: 1440px;
 }
 
 .promo_content {
@@ -613,7 +616,8 @@ body {
 }
 
 .banner__col1 {
-    max-width: 50%;
+    /* max-width: 50%; */
+    width: 50%;
     padding-inline: 15px;
     height: 100%;
     position: relative;
@@ -1124,6 +1128,7 @@ body {
     display: flex;
     justify-content: center;
     /* margin-top: 70px; */
+    /* max-width: 1440px; */
 }
 
 .carousel__fix {
@@ -1193,6 +1198,7 @@ body {
     /* padding: 80px 50px 60px; */
     /* background-color: #8ad3b6; */
     width: 100%;
+    max-width: 1440px;
 }
 
 .carousel__container__title {
@@ -1391,6 +1397,7 @@ body {
     /* background-color: #8ad3b6; */
     width: 100%;
     overflow: hidden;
+    max-width: 1440px;
 }
 
 .blogs__swiper__item {
