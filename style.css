@@ -349,7 +349,7 @@ body {
 
 .banner_content {
     width: 100vw;
-    height: 100vh;
+    height: calc(100vh - 80px);
     background-color: #fef5ef;
     position: relative;
     overflow: hidden;
@@ -1139,7 +1139,7 @@ body {
 }
 
 .carousel__container__fix {
-    width: 70%;
+    width: 100%;
     background-color: #f6f6f6;
     margin-bottom: 70px;
 
