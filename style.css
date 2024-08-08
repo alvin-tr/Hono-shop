@@ -2483,6 +2483,9 @@ background-color: #27a162ee;
     .banner_content {
         height: 70vh;
     }
+    .carousel__container__title {
+        padding-left: 100px;
+    }
 }
 
 @media screen and (max-width: 769px) {
