@@ -2353,11 +2353,12 @@ background-color: #27a162ee;
 
 .backtoptop {
     position: fixed;
-    background-color: #b19461;
+    /* background-color: #b19461; */
     bottom: 2%;
     right: 2%;
     border-radius: 50px;
     z-index: 999;
+    text-decoration: none;
 }
 .top__container {
     /* padding: 20px 20px; */
